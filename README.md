@@ -60,6 +60,28 @@ Vous pouvez observez les différentes couches OSI sur votre site **{site}.python
 * Une primitive de service,  
 * Une Service Data Unit (SDU) par rapport à une PDU  
 * Un point d'accès à un service SAP (Service Access Point)  
+# Séquence 4 – Modèle OSI
+
+## Exercice 1
+
+### Un protocole
+Un protocole est un ensemble de règles qui permettent à deux machines de communiquer entre elles.
+
+### Une entité protocolaire
+Une entité protocolaire est un programme ou composant qui applique un protocole dans une couche donnée et communique avec une entité équivalente.
+
+### Un service
+Un service est une fonction fournie par une couche à la couche supérieure.
+
+### Une primitive de service
+Une primitive de service est une action permettant d’utiliser un service (ex : envoyer, recevoir, connecter).
+
+### SDU vs PDU
+La SDU (Service Data Unit) est la donnée fournie par la couche supérieure.  
+La PDU (Protocol Data Unit) est la donnée après traitement par la couche avec ajout d’informations (en-tête).
+
+### SAP (Service Access Point)
+Un SAP est un point d’accès entre deux couches permettant à une couche d’utiliser les services de la couche inférieure.
 
 ---------------------------------------------------
 🗺️ Séquence 5 : Retour sur le protocole DHCP
